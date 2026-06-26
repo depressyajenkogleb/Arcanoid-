@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "globals": {
+        "CONFIG": "readonly",
+        "Renderer": "readonly",
+        "Input": "readonly",
+        "Economy": "readonly",
+        "Upgrades": "readonly",
+        "Save": "readonly",
+        "YaGames": "readonly"
+    },
+    "rules": {
+        "no-undef": "error",
+        "no-unused-vars": "warn",
+        "semi": ["warn", "always"]
+    }
+}
